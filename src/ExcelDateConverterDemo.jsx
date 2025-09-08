@@ -95,7 +95,7 @@ export default function ExcelDateConverterDemo() {
 
   return (
     <div style={{ padding: 20 }}>
-      <h2>Excel Date Converter + Deduplicate</h2>
+      <h2>Tools hỗ trợ danh sách quà tặng</h2>
       <input type="file" accept=".xlsx, .xls" onChange={handleFileUpload} />
       <button onClick={processAndExport} disabled={!workbook}>
         Process & Export
